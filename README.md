@@ -8,12 +8,15 @@ This is not a product level code that ignores some Bluetooth security features i
 
 For PnP ID, this component uses a famous private prototyping value as the USB vendor/product ID. You may have to undefine the service (yes, it works for most cases) or register your own ID before reusing this code.
 
+# License 
+Licensed under Apache License 2.0
+
 # Build
 Setup esp-idf
 
 Configure sdkconfig, enable Bluetooth, enable NimBLE stack.
 
-idf.py build
+Run "idf.py build"
 
 
 # References
